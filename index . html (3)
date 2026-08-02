@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radhe Krishna Cyber Cafe</title>
+</head>
+
+<body>
+
+<h1>Radhe Krishna Cyber Cafe</h1>
+
+<h2>Our Services</h2>
+
+<ul>
+<li>Online Exam Form</li>
+<li>Printout</li>
+<li>Photocopy</li>
+<li>Colour Print</li>
+<li>Lamination</li>
+<li>Scan</li>
+</ul>
+
+<h2>📞 Contact</h2>
+
+<p><b>Mobile:</b> 6200369892</p>
+<p><b>Address:</b> Bihar Sharif, Nalanda</p>
+
+<footer>
+<hr>
+<p>© 2026 Radhe Krishna Cyber Cafe | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
