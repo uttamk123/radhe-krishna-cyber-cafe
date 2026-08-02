@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/Untitled-2.html -->
+<html lang="hi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>मेरा पहला वेब पेज</title>
+<style>
+body {
+    background: linear-gradient(to right, #f5e6d3,  #ffffff);
+}
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+h2{
+    color: green;
+    text-align: center;
+}
+ul{
+    list-style-position: inside;
+    text-align: center;
+}
+li{
+    margin: 5px;
+}
+div{
+    width: 800px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5PX 20PXRGBA(0,0,0,0,3);
+    font-family: Arial, sans-serif;
+}
+    button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3S;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+button:hover{ background-color: darkgreen;transform: scale(1.05);}
+img{border-radius: 15px;box-shadow: 0px 0px 10px gray;}
+nav{
+    text-align:center;
+    margin:15px 0;
+}
+
+nav a{
+    text-decoration:none;
+    color:darkblue;
+    font-weight:bold;
+    margin:0 10px;
+}
+
+nav a:hover{
+    color:red;
+}
+</style>
+</head>
+    <body>
+        <div>
+            <nav>
+      <a href="http://127.0.0.1:5500/Untitled-2.html#home">होम</a> |
+      <a href="http://127.0.0.1:5500/Untitled-2.html#services">सेवाएँ</a> |
+      <a href="http://127.0.0.1:5500/Untitled-2.html#contact">संपर्क</a> |
+      <a href="http://127.0.0.1:5500/Untitled-2.html#location">लोकेशन</a>
+   </nav>
+            <h3 style="text-align:center; color:darkblue;">
+    सभी ऑनलाइन सेवाएँ एक ही स्थान पर
+</h3>
+<section id="home">
+            <img src="./index _files/image.png" alt="Logo" width="150" style="display: block;margin:auto; border-radius: 15PX;">
+            <h1>राधे कृष्ण साइबर कैफे</h1>
+
+    
+<p>आपका हार्दिक स्वागत है।</p>
+<section id="services">
+<h2>हमारी सेवाएँ</h2>
+
+<ul>
+    <li>ऑनलाइन फॉर्म</li>
+    <li>प्रिंटआउट</li>
+    <li>फोटोकॉपी</li>
+    <li>स्कैन</li>
+</ul>
+</section>
+<hr>
+<section id="contact">
+<h2>📞 संपर्क</h2>
+<p><b>मोबाइल:</b> 6200369892</p>
+ <p><b>पता:</b> बिहार शरीफ, नालंदा</p>
+ <a href="https://wa.me/6200369892" target="_blank">
+    <button>हमसे संपर्क करें</button>
+ </a>
+ </section>
+ <hr>
+ <h2 id="location">📍 हमारी लोकेशन</h2>
+<iframe src="./index _files/maps.html" width="100%" height="250" style="border:0; border-radius:10px;" loading="lazy">
+</iframe>
+</section>
+ <p style="text-align:=; color:gray;">
+© 2026 Radhe Krishna Cyber Cafe. All Rights Reserved.
+</p>
+</div>
+ <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+ </body></html>
